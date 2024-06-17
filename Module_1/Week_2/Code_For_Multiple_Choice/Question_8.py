@@ -1,6 +1,3 @@
-import sys
-
-
 def my_function(n):
     # Your code here
     min_value = min(n)

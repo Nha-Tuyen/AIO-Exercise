@@ -8,4 +8,4 @@ def my_function(y):
 
 
 assert my_function(8) == 40320
-print(my_function(4)) #24
+print(my_function(4))  # 24

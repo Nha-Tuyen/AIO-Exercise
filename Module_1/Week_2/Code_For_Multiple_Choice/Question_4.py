@@ -10,7 +10,7 @@ def levenshtein_distance(token1, token2):
 
     for i in range(1, len(token1) + 1):
         for j in range(1, len(token2) + 1):
-            if token1[i-1] == token2[j-1]:
+            if token1[i - 1] == token2[j - 1]:
                 distance[i][j] = distance[i - 1][j - 1]
             else:
                 distance[i][j] = min(distance[i - 1][j], distance[i][j - 1], distance[i - 1][j - 1]) + 1

@@ -5,11 +5,12 @@ def my_function(data, max, min):
         # Neu i < min thi them min vao result
         if i < min:
             result.append(min)
-        elif i>max:
+        elif i > max:
             result.append(max)
         else:
             result.append(i)
     return result
+
 
 my_list = [5, 2, 5, 0, 1]
 max = 1
