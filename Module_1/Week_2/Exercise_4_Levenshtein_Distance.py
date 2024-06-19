@@ -3,7 +3,7 @@ source = input("Enter the source string: ")
 
 
 def edit_distance(tar, src):
-    distance = [[0 for i in range(len(src) + 1)] for j in range(len(tar) + 1)]
+    distance = [[0 for _ in range(len(src) + 1)] for _ in range(len(tar) + 1)]
     for idx in range(len(tar) + 1):
         distance[idx][0] = idx
 

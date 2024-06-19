@@ -20,7 +20,6 @@ while True:
     activate_func = input("Input activation Function (sigmoid|relu|elu): ")
     if activate_func not in ["sigmoid", "relu", "elu"]:
         print(f"{activate_func} is not supported")
-        continue
     else:
         if activate_func == "sigmoid":
             print(f"sigmoid: f({x}) = ", 1 / (1 + math.pow(math.e, -x)))
