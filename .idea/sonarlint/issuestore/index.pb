@@ -54,7 +54,3 @@ f
 +Module_1/Week_1/Exercise_4_Approximation.py,1\f\1f0ca52bdc2f88772b0c8b416ba0a775b10476dd
 ]
 -Module_1/Week_1/Exercise_5_Mean_Difference.py,4\2\423004f413f08dd9500322ebc5534fcc4603ea6a
-E
-.vscode/settings.json,8\9\89aa447020cdcb580cea0495694d46a55941edbe
-M
-.sonarlint/connectedMode.json,8\f\8f3fa759197f486b33c00258b36f2f896132da81
