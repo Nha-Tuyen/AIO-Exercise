@@ -1,8 +1,4 @@
 def my_function(integers, number=1):
-    #     if i == number:
-    #         return True
-    #     else:
-    #         return False
     return any(x == number for x in integers)
 
 
