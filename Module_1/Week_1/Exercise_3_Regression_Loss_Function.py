@@ -16,7 +16,6 @@ def choose_loss_name():
         var = input("Input loss name: ").upper()
         if var != "MSE" and var != "MAE" and var != "RMSE":
             print("Invalid input. Please enter MSE, MAE, or RMSE.")
-            continue
         else:
             return var
 

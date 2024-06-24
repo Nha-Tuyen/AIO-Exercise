@@ -17,5 +17,9 @@ def levenshtein_distance(token1, token2):
     return float(distance[len(token1)][len(token2)])
 
 
-assert levenshtein_distance("hi", "hello") == 4.0
+def is_close(a, b, rel_tol=1e-9, abs_tol=0.0):
+    return abs(a - b) <= max(rel_tol * max(abs(a), abs(b)), abs_tol)
+
+
+assert is_close(levenshtein_distance("hi", "hello"), 4.0)
 print(levenshtein_distance(" hola ", " hello "))

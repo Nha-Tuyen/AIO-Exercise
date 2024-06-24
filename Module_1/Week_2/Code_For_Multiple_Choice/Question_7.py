@@ -2,7 +2,6 @@ def my_function(x, y):
     # Your code here
     # Su dung extend de noi y vao x
     x.extend(y)
-    # return x
     return x
 
 
