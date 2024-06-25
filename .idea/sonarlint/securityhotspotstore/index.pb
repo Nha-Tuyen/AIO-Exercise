@@ -40,10 +40,6 @@ f
 6Module_1/Week_2/Code_For_Multiple_Choice/Question_3.py,0\6\06cd1f73129663a0480e0c3589b95888a48611c3
 f
 6Module_1/Week_2/Code_For_Multiple_Choice/Question_6.py,2\5\251aa87343ea999f90fc57bb605333c76c67b08a
-E
-.vscode/settings.json,8\9\89aa447020cdcb580cea0495694d46a55941edbe
-M
-.sonarlint/connectedMode.json,8\f\8f3fa759197f486b33c00258b36f2f896132da81
 f
 6Module_1/Week_2/Code_For_Multiple_Choice/Question_8.py,0\c\0cd7d20fd87c1107a32beac24d3c6d5fada643e9
 f
